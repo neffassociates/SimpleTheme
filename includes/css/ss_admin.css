@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,700,300,400);
+/* line 4, ../sass/ss_admin.scss */
+.menu-item-hold {
+  border: 1px solid #dfdfdf;
+}
+/* line 7, ../sass/ss_admin.scss */
+.menu-item-hold input[type="text"], .menu-item-hold textarea {
+  width: 100%;
+  border: 0px solid transparent;
+}
+/* line 12, ../sass/ss_admin.scss */
+.menu-item-hold input[type="text"] {
+  height: 50px;
+}
+/* line 16, ../sass/ss_admin.scss */
+.menu-item-hold textarea {
+  padding: 15px;
+  min-height: 100px;
+}
+
+/* line 22, ../sass/ss_admin.scss */
+.item-headers {
+  width: 100%;
+  clear: both;
+  background: #f1f1f1;
+}
+/* line 27, ../sass/ss_admin.scss */
+.item-headers label {
+  width: 100%;
+  display: block;
+  font-weight: 700;
+  text-align: center;
+}
+/* line 34, ../sass/ss_admin.scss */
+.item-headers fieldset {
+  width: 33.33333%;
+  vertical-align: top;
+  display: inline-block;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+/* line 43, ../sass/ss_admin.scss */
+.item-inputs {
+  width: 100%;
+  clear: both;
+  padding: 15px;
+  background: #f9f9f9;
+  box-sizing: border-box;
+}
+/* line 51, ../sass/ss_admin.scss */
+.item-inputs fieldset {
+  width: 33.33333%;
+  vertical-align: top;
+  display: inline-block;
+  padding: 15px;
+  box-sizing: border-box;
+}
