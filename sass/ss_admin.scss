@@ -1,0 +1,66 @@
+@import '_vars', 
+		'_mixins';
+
+.menu-item-hold {
+	border: 1px solid #dfdfdf;
+
+	input[type="text"], textarea {
+		width: 100%;
+		border:0px solid transparent;
+	}
+
+	input[type="text"] {
+		height:50px;
+	}
+
+	textarea {
+		padding: 15px;
+		min-height: 100px;
+	}
+}
+
+.item-headers {
+	width: 100%;
+	clear:both;
+	background: #f1f1f1;
+
+	label {
+		width: 100%;
+		display: block;
+		font-weight: 700;
+		text-align: center;
+	}
+
+	fieldset {
+		width: (100 / 3) + 0%;
+		vertical-align: top;
+		display: inline-block;
+		padding: 15px;
+		box-sizing: border-box;
+	}
+}
+
+.item-inputs {
+	width:100%;
+	clear:both;
+	padding:15px;
+	background: #f9f9f9;
+	box-sizing: border-box;
+
+
+	fieldset {
+		width: (100 / 3) + 0%;
+		vertical-align: top;
+		display: inline-block;
+		padding: 15px;
+		box-sizing: border-box;
+	}
+
+	// fieldset:first-child {
+	// 	padding-left: 0;
+	// }
+
+	// fieldset:last-child {
+	// 	padding-right: 0;
+	// }
+}

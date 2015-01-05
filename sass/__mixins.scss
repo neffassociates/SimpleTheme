@@ -1,0 +1,30 @@
+
+// @param $d Map
+@mixin set_defaults( $d ) {
+	$defaults: $d;
+	
+	@each $item , $default in $defaults {
+		#{$item}: $default;
+	}
+}
+
+// @param $size String
+@mixin break ( $size ) {
+	@if ( $size == xs ) {
+		@media all and (max-width:767px) {
+			@content;
+		}
+	} @else if ( $size == sm ) {
+		@media all and (min-width:768px) and (max-width:991px) {
+			@content;
+		}
+	} @else if ( $size == md ) {
+		@media all and ( min-width:992px ) and ( max-width:1200px ) {
+			@content;
+		}
+	} @else if ( $size == lg ) {
+		@media all and ( min-width:1200px ) {
+			@content;
+		}
+	}	
+}

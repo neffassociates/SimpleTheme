@@ -1,0 +1,30 @@
+// This File is contains all SASS variables used throughtout files as well as core theme setting like the theme name & author
+
+// Import all fonts first
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,700,300,400);
+
+// Set theme Header
+$theme_name: "Simple Theme";
+$theme_ver: 1.0;
+$theme_author: ("Demetrius Burgess");
+$theme_text_domain: "simpletheme";
+
+$font_fams: ("'Open Sans'");
+
+$font_defaults: ( font-size: 16px, 
+				  font-weight: 300, 
+				  font-family: nth($font-fams, 1)  sans-serif,
+				  line-height: 1.5,
+				  margin: 10px 0
+				);
+
+$hfont_defaults: ( font-size: 25px, 
+				  font-weight: 700, 
+				  font-family: nth($font-fams, 1)  sans-serif,
+				  line-height: 1.5,
+				  margin: 10px 0
+				);
+
+$ul_norm: ( list-style:none,
+			padding: 0 
+		  );

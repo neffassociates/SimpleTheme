@@ -1,0 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,700,300,400);
+/*
+Theme Name: Simple Theme
+Theme URI: http://demetriusburgess.com/simple_theme
+Author: Demetrius Burgess
+Author URI: http://demetriusburgess.com
+Description: A simple, elegent, responsive theme.
+Version: 1
+Tags: responsive-layout
+Text Domain: simpletheme
+
+*/
+/* line 1, ../sass/__globals.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "'Open Sans'" sans-serif;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+/* line 5, ../sass/__globals.scss */
+p, li, a {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "'Open Sans'" sans-serif;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+/* line 9, ../sass/__globals.scss */
+h3 {
+  font-size: 18px;
+}
+
+/* line 1, ../sass/_header.scss */
+header {
+  width: 100%;
+  float: left;
+  clear: both;
+}
+
+/* line 1, ../sass/_main.scss */
+.hero-image {
+  background-image: url(images/header.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+/* line 10, ../sass/_main.scss */
+.post-hold ul {
+  list-style: none;
+  padding: 0;
+}
+/* line 14, ../sass/_main.scss */
+.post-hold li {
+  padding: 10px;
+}

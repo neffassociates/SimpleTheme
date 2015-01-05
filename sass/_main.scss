@@ -1,0 +1,17 @@
+.hero-image {
+	background-image: url(images/header.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	padding: 200px 0;
+}
+
+.post-hold {
+	ul {
+	 	@include set_defaults($ul_norm);
+	}
+
+	li {
+		padding: 10px;
+	}
+}
